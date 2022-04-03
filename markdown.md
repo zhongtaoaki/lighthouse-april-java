@@ -106,6 +106,8 @@ hoge
 先頭の`!`で画像の<img>と認識されます。画像の大きさなどの指定をする場合はimgタグを使用します。
 
 ![alt](画像URL)
+![例](https://notepm.jp/assets/img/apple-touch-icon-120x120.png)
+
 
 # Table 表
 
