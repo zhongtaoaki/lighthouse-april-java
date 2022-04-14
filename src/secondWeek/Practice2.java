@@ -21,16 +21,33 @@ interface Token {
 
 class Add implements Token {
 
+	@Override
+	public int compute(int a, int b) {
+		return a+b;
+	}
+
 }
 
 class Sub implements Token {
 
+	@Override
+	public int compute(int a, int b) {
+		return a-b;
+	}
 }
 
 class Mul implements Token {
 
+	@Override
+	public int compute(int a, int b) {
+		return a*b;
+	}
 }
 
 class Div implements Token {
 
+	@Override
+	public int compute(int a, int b) {
+		return a/b;
+	}
 }

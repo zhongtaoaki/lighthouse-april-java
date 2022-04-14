@@ -23,7 +23,49 @@ class Calculator {
 
 		int i = Character.getNumericValue('1');
 
+		// 字符串解析
 		char[] chars = expression.toCharArray();
+
+		// 用下标区分数字，符号
+
+		// 确认优先级
+
+		// 运算
+		int result = 0;
+
+		int num1 = Character.getNumericValue(chars[0]);
+		int num2 = Character.getNumericValue(chars[2]);
+		int num3 = Character.getNumericValue(chars[4]);
+
+		if ((chars[3] == '*' || chars[3] == '/') && (chars[1] == '+' || chars[1] == '-')) {
+			result = getToken(chars[3]).compute(num2, num3);
+			result = getToken(chars[1]).compute(num1, result);
+
+		} else {
+			result = getToken(chars[1]).compute(num1, num2);
+			result = getToken(chars[3]).compute(result, num3);
+
+		}
+
+		return result;
+
+	}
+
+	static Token getToken(char tokenAsChar) {
+
+		switch (tokenAsChar) {
+		case '+':
+			return new Add();
+		case '-':
+			return new Sub();
+		case '*':
+			return new Mul();
+		case '/':
+			return new Div();
+
+		default:
+			return null;
+		}
 
 	}
 
