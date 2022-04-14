@@ -25,12 +25,37 @@ public class Practice1 {
 }
 
 class Subject1{
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public Subject1(String name) {
+		super();
+		this.name = name;
+	}
 	
 }
 
 class Student1{
 	
+	private String name;
+	
+	private int age;
+
+	private Subject1 subject;
+
+	@Override
+	public String toString() {
+		return "学生：" + name + ", 年龄：" + age + ", 科目" + subject.getName();
+	}
+
+	public Student1(String name, int age, String subject) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.subject = new Subject1(subject);
+	}
+	
 }
-
-
-
