@@ -1,4 +1,4 @@
-package secondPackage;
+package secondWeek;
 
 /**
  *  写一个科目类，有“name”这个属性

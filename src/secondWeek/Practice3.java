@@ -1,4 +1,4 @@
-package secondPackage;
+package secondWeek;
 
 /**
  * 使用Practice2的Token完成下列代码
@@ -15,9 +15,6 @@ public class Practice3 {
 		System.out.println(Calculator.calculate("1+1*1"));
 		System.out.println(Calculator.calculate("1+1/1"));
 		
-		String s = "1";
-		s.
-		
 	}
 
 }
@@ -26,6 +23,10 @@ class Calculator {
 
 	public static int calculate(String expression) {
 
+		int i = Integer.valueOf("1");
+		
+		String s = "1+1+1";
+		char[] chars =  s.toCharArray();
 		
 	}
 

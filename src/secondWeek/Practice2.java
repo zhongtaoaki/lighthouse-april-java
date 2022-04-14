@@ -1,4 +1,4 @@
-package secondPackage;
+package secondWeek;
 
 /**
  * 写一个能进行四则运算的程序，在不修改main方法的基础上能顺利输出“12，8，20，5”

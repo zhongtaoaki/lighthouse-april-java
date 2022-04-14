@@ -1,4 +1,4 @@
-package secondPackage;
+package secondWeek;
 
 /**
  * 实现stack的数据结构
