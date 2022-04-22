@@ -1,6 +1,6 @@
-#刘天琦的今日计划
+# 刘天琦的今日计划
 
-##今日学习
+## 今日学习
 ---
 ```
 public static void main(String[] args) {
@@ -25,7 +25,7 @@ public static void main(String[] args) {
 	}
 ```
 
-##今日目标
+## 今日目标
 ---
 - 复习本周Java
     - Java API
@@ -35,16 +35,16 @@ public static void main(String[] args) {
 - 读书《编码》
 - 看电影《聚焦》
 
-##今日最佳网站
+## 今日最佳网站
 ---
 [Qiita](https://qiita.com/)
 
-##今日最佳风景
-###横滨
+## 今日最佳风景
+### 横滨
 ---
 ![横滨](https://www.yokohamajapan.com/cn/article/yokohama-skyline/img/top.jpg)
 
-##今日休闲娱乐
+## 今日休闲娱乐
 | 室内 | 室外 |
 ----|---- 
 | 读书 | 横滨 |
