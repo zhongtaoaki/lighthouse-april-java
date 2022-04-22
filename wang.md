@@ -10,6 +10,7 @@ Choose what you need from our extensive library of events and actions to sculpt 
 
 If you want to see the behind the scenes of your GML Visual actions why not use our Code Preview 
 Feature? Learn how coding works and start converting your project to code.
+
 ---
 
 ### GML CODE
