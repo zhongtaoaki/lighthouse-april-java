@@ -18,8 +18,19 @@
 
 ![img](https://d10pyp7ylo9bub.cloudfront.net/2019/10/nintendotokyocover.jpg)
 
+
+
+
+
+---
+---
+```
+System.out.println("真的好想快点玩塞尔达传说2啊---！");
+```
+
 ---
 
-|:---|:---:|---:|
-|身高 |体重 |职业 |
-|178 |70kg |剑客 |
+| weight      | height      |
+| ----------- | ----------- |
+|  78         | 178         |
+|  kg         | cm          |
