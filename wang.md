@@ -27,7 +27,7 @@ Save civilians while learning GML Visual or get started in the fundamentals of c
 
 ---
 
-##code example
+## code example
 ```
 x = 0;
 y = 0;
@@ -43,7 +43,7 @@ y += grv;
 coming soon | 10$ | 20$ | 30$ |
 
 ---
-##Manual
+## Manual
 
 - IDE Preferences
 	- the device manager  
