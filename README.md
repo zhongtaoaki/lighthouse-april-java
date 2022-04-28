@@ -10,22 +10,22 @@ lighthouse plan 四月
 - [第3週テスト](https://zhongtaoaki.notion.site/3-68002a635f314b1691e6df014d977994)
 
 ## 个人主页
-- [刘](https://cosimo0125.github.io/cosimo/)
+- [方函](https://cosimo0125.github.io/cosimo/)
 
-- [方](https://ywszd0405.github.io/My-Website/)
+- [刘悦汐](https://ywszd0405.github.io/My-Website/)
 
-- [王](https://sputnik190033.github.io/ONEW-group-work/)
+- [王彦和](https://sputnik190033.github.io/ONEW-group-work/)
 
-- [刘](https://liutianqiltq.github.io/My-blog/)
+- [刘天琦](https://liutianqiltq.github.io/My-blog/)
 
-- [戎](https://rongshujin.github.io/MyWebsite/)
+- [戎姝锦](https://rongshujin.github.io/MyWebsite/)
 
-- [闫](https://yanyuxuanbf.github.io/bigfaceTX/)
+- [闫宇轩](https://yanyuxuanbf.github.io/bigfaceTX/)
 
-- [李](https://sydong001.github.io/cmywebsite/)
+- [李东](https://sydong001.github.io/cmywebsite/)
 
-- [郑](https://zheng-yufeng.github.io/myblog/)
+- [郑钰枫](https://zheng-yufeng.github.io/myblog/)
 
-- [陈](https://kittymimi.github.io/Repository1/)
+- [陈薇](https://kittymimi.github.io/Repository1/)
 
-- [仇](https://rijiuqiu.github.io/MyWebsite/)
+- [仇锐](https://rijiuqiu.github.io/MyWebsite/)
