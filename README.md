@@ -25,7 +25,7 @@ lighthouse plan 四月
 
 - [陈薇](https://kittymimi.github.io/Repository1/)
 
-- [仇锐](https://rijiuqiu.github.io/MyWebsite/)
+- [仇锐](https://rijiuqiu.github.io/MyNote/)
 
 - [丛伟](https://congwweigithub.github.io/myFirstWebste/)
 
