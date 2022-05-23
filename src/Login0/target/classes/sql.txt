@@ -1,0 +1,15 @@
+create table users(
+  id bigserial not null primary key,
+  username varchar(100),
+  password varchar(100)
+);
+
+create table blogs(
+  id bigserial not null primary key,
+  user_id bigserial REFERENCES users(id),
+  title varchar(255),
+  content text,
+  image bytea,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);

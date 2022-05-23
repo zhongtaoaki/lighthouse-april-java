@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://thymeleaf.org">
+	<head>
+		<title>myblog</title>
+	</head>
+	<body style="background-color:#FFEEDD">
+		<h1 style="margin-left:100px; text-align:left; color:#AAADDA" th:text="|Welcome back, ${username}!|"></h1>
+		<div style="margin-right:100px; text-align:right; "><a  th:href="@{/editor(username=${username})}"><button style="padding:5px">Add a blog</button></a></div>
+		
+		
+		<div style="background-color:#BCA;  text-align:center; margin:50px;" th:each="blog : ${blogs}">
+			<h2 style="text-align:left; padding:20px;" th:text="${blog.title}"></h2>
+			<p style="text-align:left; padding:20px;" th:text="${blog.content}"></p>
+			<br>
+		</div>
+		
+		<div style="margin-right:100px; text-align:right; "><a  th:href="@{/login}"><button style="padding:5px">Logout</button></a></div>
+		
+	</body>
+</html>
