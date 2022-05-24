@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://thymeleaf.org">
+	<head>
+		<title>myblog</title>
+	</head>
+	<body style="background-color:#FFEEDD">
+		<h1 style="margin-left:100px; text-align:left; color:#AAADDA" th:text="|Welcome back, ${#httpServletRequest.remoteUser}!|"></h1>
+		<div style="margin-right:100px; text-align:right; "><a th:href="@{/editor}"><button style="padding:5px">Add a blog</button></a></div>
+		
+		<div style="background-color:#BCA;  text-align:center; margin:50px;" th:each="blog : ${blogs}" th:object="${blog}">
+			<h2 style="text-align:left; padding:20px;" th:text="*{title}"></h2>
+			<p style="text-align:left; padding:20px; white-space: pre-line" th:text="*{content}"></p>
+			<br>
+		</div>
+		
+		<div style="margin-right:100px; text-align:right; ">
+			<form th:action="@{/logout}" method="post">
+	            <input type="submit" style="padding:5px" value="Logout"/>
+	        </form>
+        </div>
+		
+	</body>
+</html>
