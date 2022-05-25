@@ -25,7 +25,7 @@ public class LoginController {
 	
 	@GetMapping("/")
 	public String home() {
-		return "/blog";
+		return "redirect:/blog";
 	}
 	
 	@GetMapping("/register")

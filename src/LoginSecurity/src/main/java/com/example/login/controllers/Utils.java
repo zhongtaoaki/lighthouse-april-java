@@ -7,3 +7,4 @@ public class Utils {
 		return (String) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 	}
 }
+

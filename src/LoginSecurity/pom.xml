@@ -19,6 +19,7 @@
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
+		<!-- Spring Boot 基本依赖 -->		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -36,23 +37,26 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
+
+		<!-- Postgresql 驱动 -->
 		<dependency>
-			<!-- Postgresql 依赖 -->
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<!-- 连接数据库所须依赖 -->
 		<dependency>
-			<!-- 连接数据库所用依赖 -->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
-			<!-- 连接数据库所用依赖 -->
 			<groupId>org.hibernate.validator</groupId>
 			<artifactId>hibernate-validator</artifactId>
 			<version>7.0.0.Final</version>
 		</dependency>
+		
+		<!-- 登录验证所须依赖 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
